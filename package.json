@@ -1,19 +1,27 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "Weather Forecast Application",
+  "description": "This App tells the weather condition in different cities of the the world",
   "main": "weather.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vennyyoung/WeatherApp.git"
   },
   "author": "venny",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vennyyoung/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/Vennyyoung/WeatherApp#readme",
   "dependencies": {
+    "D": "^1.0.0",
     "body-parser": "^1.19.0",
     "domino": "^2.1.6",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
   }
 }
