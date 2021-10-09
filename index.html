@@ -7,20 +7,61 @@
     <title>Current Live Weather App</title></head>
     <body>
     <h1>Welcome, Hope You Are Having A Great Day</h1>
-    <div>
+    <div class="weda">
     <form action="/" method="POST">
     <label for="cityName"><h3>What City would You like to know their current weather condition</h3></label>
-    <input type="text" name="cityName" value="">
+    <input type="text" name="cityName" value="" placeholder="Enter the name of a city"><br>
     <button type="submit" name="button">submit</button>
 </form>
 </div>
-<div style="background: cadetblue;padding: 200px;">
-    <p id="display1"></p>
-    <p id="display2"></p>
-    <p id="display3"></p>
-    <p id="display4"></p>
+<div>
+
 
 </div>
+<style>
+    input {
+
+background-color: #edf2f7;
+border-radius: .25rem;
+width: 30%;
+padding: .70rem;
+}
+
+button {
+    width: 20x;
+   height: 20px;
+   border: none;
+   margin: 20px;
+padding-top: 5px;
+padding-bottom: 8px;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+font-size: 1rem;
+box-sizing: inherit;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+border-radius: 30px;
+font-family: U8, sans-serif;
+font-weight: 800;
+background-color: cornflowerblue;
+color: greenyellow;
+cursor: pointer;
+}
+    .weda{
+        padding-top: 200px;
+        text-align: center;
+    }
+    h1,h3{
+        text-align: center;
+        color: darkslategray;
+    }
+    body{
+
+        background-image: url("/images/weather-image.jpg");
+        background-size: cover;
+    }
+</style>
 <script src="weather.js"></script>
 </body>
 
