@@ -10,7 +10,7 @@ console.log('The server is good to go')
 
 //Navigation
 app.get('/',function(request,response){
-  response.sendFile(__dirname +'/index.html')
+  response.sendFile(__dirname +'/weda.html')
 })
 
 app.post('/',function(request,response){
