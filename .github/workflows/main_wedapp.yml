@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'WedApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B39D11519C14B839AA8A54CBA5DD813 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9E61F499D8BE47EBABD44C86B4939F54 }}
           package: .
